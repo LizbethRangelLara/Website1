@@ -1,0 +1,129 @@
+body h1 {
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: 2px 2px 4px red;
+    text-align: center;
+
+}
+
+body {
+    font-family: 'Newsreader', serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Odibee Sans', cursive;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.active {
+    color: white;
+    justify-content: center;
+    float: left;
+    
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li input {
+    float: left;
+    padding: 5px 30px;
+    border: none;
+    margin-top: 23px;
+    margin-right: 0px;
+    font-size: 17px;
+}
+
+li button.searchicon {
+    float: left;
+    padding: 3px 8px;
+    filter: invert(100);
+    background-color: cyan;
+    border-color:cyan;
+    margin-top: 23px;
+    margin-right: 0px;
+    font-size: 17px;
+}
+
+li .logo {
+    color: white;
+    background-color: red;
+    float: left;
+    padding: 20px 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 40px;
+}
+
+.active2 {
+    color: white;
+    justify-content: right;
+    float: right;
+    align-items: normal;
+    text-align: right;
+    padding: 0px 5px;
+    padding-top: 15px;
+
+}
+
+.active3{
+    color: white;
+    justify-content: right;
+    float: right;
+    align-items: normal;
+    text-align: right;
+    padding: 10px 0px;
+}
+
+li button.carticon{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    color: white;
+    justify-content: right;
+    float: right;
+    align-items: normal;
+    text-align: right;
+    padding: 0px 0px;
+    margin-left: 0;
+}
+
+ol {
+    background-color: white;
+    text-align: left;
+}
+
+/*Footer Nav Menu*/
+.footermenu {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footermenu a {
+    font-family: 'Odibee Sans', cursive;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .footermenu a:hover {
+    background: white;
+    color: black;
+  }
+  
